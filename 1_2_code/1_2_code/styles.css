@@ -1,0 +1,54 @@
+@media (min-width: 800px)
+{
+	body{
+	color: white;
+	background: #222831;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: red; 
+	}
+
+	h1{
+		font-family: monospace;
+		font-size: 40px;
+	}
+
+	.indent{
+		margin-left: 15px;
+	}
+
+	.sp{
+		color: #222831;
+	}
+
+	.thin_border{
+		border: 1px solid white;
+	}
+
+	.container{
+		padding: 20px;
+
+	}
+	.column{
+		padding: 35px;
+	}
+	a { 
+	  color: green;
+	}
+
+	.changemeagain { 
+	  color: yellow;
+	}
+
+	.changeme { 
+	  color: red;
+	}
+
+}
+

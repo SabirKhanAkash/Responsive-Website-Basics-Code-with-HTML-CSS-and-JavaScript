@@ -1,0 +1,15 @@
+@media (min-width: 800px)
+{
+	body{
+	color: white;
+	background: #222831;
+	}
+
+	h1{
+		font-family: monospace; /** this is for font family **/
+		font-size: 40px; /** this is for font size  **/
+		padding: 2px; /** this is the padding for the heading tag **/
+	}
+
+}
+
