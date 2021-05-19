@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Learning JavaScript</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<center>
+			<img class="crop-img" src="1st_prize.png" width="100%"><br><br>
+
+			<button id="greet" 
+				onclick="alert($('#png').html()); 
+				console.log('WOW');
+				count = 0;"
+				>GREETINGS
+			</button><br><br>
+
+			<button id="jquery"
+				onclick="$('#jquery').html('Congrats! I changed because you clicked me.');" 
+				>Click Here To Change Me
+				
+			</button><br><br>
+			
+
+			<button id="cng" onclick="kaBoom();">
+				FIRE
+				
+			</button>&nbsp; 
+			<button id="png" onclick="beUnited();">
+				Be United				
+			</button>
+
+			<script type="text/javascript">
+				function beUnited(){
+					$('#jquery').html("I'm United! Click me to Say Hello ");
+					$('#jquery').click(function () {
+						$('#jquery').html('Hello! Click Here To Change Me');
+						$('#jquery').off('click');
+					});
+				};
+			</script>
+			
+			<script type="text/javascript">
+				function kaBoom(){
+					
+					if(count%2==0) {
+						$('#greet').html('Ka BOOOOM !!!!');
+						count++;
+					}
+					else {
+						$('#greet').html('Hello World');
+						count++;
+					}
+					console.log(count);
+
+				};
+			</script>
+
+		</center>
+
+	</body>
+</html>
